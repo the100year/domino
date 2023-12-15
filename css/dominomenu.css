@@ -1,0 +1,1348 @@
+* {
+    box-sizing: border-box;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.bg_icon {
+    /* background-image: url(../img/sp_common.png);
+    background-repeat: no-repeat;
+    background-position: 0 0; */
+    background: url(../img/sp_common.png) no-repeat 0 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    position: relative;
+    z-index: 99999;
+    background-color: #fff;
+}
+
+.logo {
+    width: 160px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.search_wrap {
+    border-bottom: 1px solid #111;
+    width: 345px;
+}
+.h_lang{
+    width: 60px;
+    height: 27px;
+    border: 1px solid #ddd;
+    border-radius: 13.5px;
+    font-size: 12px;
+    padding: 0 13px;
+    line-height: 27px;
+    position: absolute;
+    top: 7px;
+    left:130px;
+}
+.low_ar{
+    z-index: 2;
+    position: absolute;
+    top: 8px;
+    left: 40px;
+    width: 8px; height: 8px;
+    display: inline-block;
+    border-style: solid;
+    border-color: transparent #888 #888 transparent ;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+    transition: all 0.15s ease-in-out;
+}
+.h_htn_wrap>ul {
+    display: flex;
+    position: relative;
+}
+
+.h_htn_wrap a {
+    display: block;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #111;
+    line-height: 40px;
+}
+
+.arrow {
+    background-position: -162px 0;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+
+nav{
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    border-bottom: 1px solid #444;
+    padding-bottom: 20px;
+}
+nav>ul>li>a{
+    display: block;
+    font-size: 18px;
+    color: #111;
+    line-height: 54px;
+    font-weight: 540;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    /* position: absolute;
+    left: 50px;
+    transform: translate(-50%);
+    z-index: 999; */
+}
+
+.wowo {
+    position: relative;
+}
+
+.wowo::after {
+    content: "";
+    position: absolute;
+    right: -22px;
+    top: 18px;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(45deg);
+
+
+}
+.sub_menu {
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 999;
+    top: -120px;
+    transition: top 1s;
+    display: flex;
+    justify-content:center;
+    left: 10px;
+
+}
+
+.active {
+    top: 150px;
+}
+
+.sub_menu>ul {
+    padding: 20px 100px;
+
+}
+.sub_menu>ul>li{
+    padding: 3px 0;
+}
+.sub_menu>ul>li>a{
+    font-size: 18px;
+    color:#444;
+}
+.sub_menu>ul>li:first-child>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+.sub_menu>div{
+    padding: 20px 170px;
+    border-left: 1px solid #333;
+}
+.sub_menu>div>ul>li{
+    padding: 3px 0;
+}
+.sub_menu>div>ul>li>a{
+    font-size: 18px;
+    color:#444;
+}
+
+.sub_menu>div>ul>li:first-child>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+nav>ul>a {
+    font-size: 18px;
+    color: #111;
+    line-height: 54px;
+}
+/***************************************main***********************/
+main{
+    margin: 0 auto;
+}
+.main_menu{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+.main_menu>h1{
+    font-size: 32px;
+    color: #111;
+    font-weight: 400;
+    padding: 30px 0 10px;
+}
+.main_menu>ul{
+    display: flex;
+}
+.main_menu>ul>li>a{
+    font-size: 18px;
+    color: #888;
+    padding: 30px 0 10px;
+}
+.main_menu>p>span{
+    color: #000;
+}
+section>ul>li>div{
+    width: 275px;
+}
+.kind{
+    display: flex;
+    border-bottom: 2px solid #111;
+    width: 1200px;
+    margin:  0 auto;
+
+}
+.kind>a{
+    font-size: 20px;
+    padding :5px 10px;
+}
+
+.new{
+    width: 1200px;
+    margin: 0 auto;
+    font-size:38px ;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+section{
+    padding-bottom: 100px ;
+}
+
+section>ul{
+    display: flex;
+    justify-content: center;
+}
+section>ul>li{
+    padding: 20px;
+}
+section>ul>li>div{
+    padding: 5px;
+}
+section>ul>li>div:first-child{
+    width: 276px;    
+    height: 276px;
+    background-size: cover;
+}
+.label_new{
+    border-color: #FF143C;
+    background-color: #FF143C;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 700;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 5px;
+    margin-right: 5px;
+}
+section>ul>li>div:nth-child(2){
+    font-size: 20px;
+    color: #111;
+    font-weight: 600;
+    overflow: hidden;
+    line-height: 26px;
+    height: 63px;
+}
+section>ul>li>div:nth-child(3){
+    display: inline-block;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+section>ul>li>div:nth-child(4){
+    display: block;
+    font-size: 14px;
+    color: #888888;
+    line-height: 20px;
+}
+section>ul>li>div:nth-child(5){
+    display: block;
+    font-size: 14px;
+    color: #888888;
+    line-height: 20px;
+}
+.size_L{
+    margin-right: 8px;
+    color: #ff143c;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.sand{
+    background-image: url(../img/치즈\ 크레이프\ 샌드.jpg);
+}
+.todn{
+    background-image: url(../img/아보카도\ 새우.jpg);
+}
+.rkawk{
+    background-image: url(../img/대만\ 콘\ 치즈\ 감자.jpg);
+}
+.akfmrpflEk{
+    background-image: url(../img/이탈리아\ 마르게리따.jpg);
+}
+.tbflavm{
+    background-image: url(../img/블랙타이거\ 슈림프.jpg);
+}
+.qjtmxj{
+    background-image: url(../img/블록버스터4.jpg);
+}
+.tmxpdlzm{
+    background-image: url(../img/블랙앵거스\ 스테이크.jpg)
+}
+.zhkxmfh{
+    background-image: url(../img/베스트\ 콰트로.jpg);
+}
+.tmxpdlzmtbflavm{
+    background-image: url(../img/와일드\ 와일드\ 웨스트\ 스테이크+블랙타이거\ 슈림프.jpg);
+}
+.tbflavmtmxpdlzm{
+    background-image: url(../img/블랙타이거\ 슈림프+블랙앵거스\ 스테이크.jpg);
+}
+.ejqmfclwmdptwl{
+    background-image: url(../img/포테이토+리얼불고기\ 더블치즈엣지.jpg);
+}
+.ejqhrl{
+    background-image: url(../img/+하프앤하프\ 더보기.jpg);
+}
+.gldjfh{
+    background-image: url(../img/슈퍼\ 디럭스\ 히어로.jpg)
+}
+.tmxkfkdlxm{
+    background-image: url(../img/불고기\ 체다\ 스타라이트.jpg)
+}
+.zldeja{
+    background-image: url(../img/리코타\ 페퍼로니\ 킹덤.jpg)
+}
+.vhxpdlxh{
+    background-image: url(../img/포테이토.jpg)
+}
+.dhflwls{
+    background-image: url(../img/뉴욕\ 오리진.jpg)
+}
+.fldjfqnfrhrl{
+    background-image: url(../img/리얼불고기.jpg)
+}
+.rhrnak{
+    background-image: url(../img/우리\ 고구마.jpg)
+}
+.tbvjelfjrtm{
+    background-image: url(../img/슈퍼디럭스.jpg)
+}
+.tbvjtbvmfla{
+    background-image: url(../img/슈퍼슈프림.jpg)
+}
+.cpejclwm{
+    background-image: url(../img/베이컨체더치즈.jpg)
+}
+.vpvjfhsl{
+    background-image: url(../img/페퍼로니.jpg)
+}
+.clwm{
+    background-image: url(../img/치즈.jpg)
+}
+.clwmrkawk{
+    background-image: url(../img/대만\ 콘\ 치즈\ 감자.jpg);
+}
+.dlxkffldkakfmrpflEk{
+    background-image: url(../img/이탈리아\ 마르게리따.jpg);
+}
+.first_pag{
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.st>ul{
+    justify-content:left ;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.dbdmltkgkd{
+    padding-top: 50px;
+    border-top: 1px solid #888888;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 100px;
+}
+.dbdmltkgkd>div>dt{
+    font-size: 14px;
+    color: #888888;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+.dbdmltkgkd>div>p{
+    font-size: 13px;
+    color: #888888;
+    line-height: 24px;
+    padding-left: 12px;
+}
+.dbdmltkgkd>div>div>dd{
+    font-size: 13px;
+    color: #888888;
+    line-height: 24px;
+    padding-right: 12px;
+    width: 500px;
+    padding-bottom: 50px;
+}
+.line{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 600px;
+    width: 1px;
+    height: 80%;
+    background: #eee;
+}
+.from{
+    padding-left: 20px;
+    width: 300px;
+    text-align: left;
+    height: 50px;
+    background: #222222;
+    margin-left: 50px;
+}
+.from>a{
+    color: #dddddd;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: 600;
+}
+/************************2page******************/
+
+
+.up>div{
+    background-image: url(../img/점심.jpg);
+    width: 1200px; height: 220px;
+    display: block;
+    margin: 0 auto;
+    background-size: cover;
+    margin-top: 50px;
+}
+.mi>ul{
+    justify-content:left ;
+    width: 1250px;
+    margin: 0 auto;
+}
+.do>ul{
+    justify-content:left ;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+
+
+.clwmrkawk1dls{
+    background-image: url(../img/대만\ 콘\ 치즈\ 감자\ 1인.jpg);
+}
+.akfmrpflEk1dls{
+    background-image: url(../img/이탈리아\ 마르게리따\ 1인.jpg);
+}
+.tbflavmfkdltmqhf{
+    background-image: url(../img/블랙타이거\ 슈림프\ 피자\ 라이스볼.jpg);
+}
+.tmxpdlzmfkdltmqhf{
+    background-image: url(../img/블랙앵거스\ 스테이크피자\ 라이스볼.jpg);
+}
+
+/**********************third********************/
+
+.third_page{
+    display: flex;
+    justify-content: flex-end;
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 50px 20px 0;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.what{
+    background-image: url(../img/pizza_pan.png);
+    background-size: cover;
+    width: 580px;
+    height: 580px;
+    top: 275px;
+    z-index: 5;
+    display: flex;
+    position:static;
+    top: 50px;
+    transition: top 0.3s ease-in-out;
+}
+.what>div{
+    width: 50%; height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.right_pizza img{
+    position: absolute;
+    top: 100px;
+    float: right;
+    right: 50px;
+    text-indent: -999px;
+    }
+.left_pizza img{
+    position: absolute;
+    top: 100px;
+    left: 50px ;
+}
+.side_menu{
+    margin-bottom: 50px;
+    background: #f8f8f8;
+    position: relative;
+    padding: 22px 30px;
+    height: 300px;
+}
+.third_page>aside>div>h3{
+    margin-bottom: 9px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #111;
+}
+.side_menu>p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #111;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+.side_menu>div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.side_menu>div>dd{
+    width: 115px;
+}
+.side_menu>div>dd>figcaption{
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #444;
+}
+.side_menu>div>dd>a{
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 11px;
+    color: #888888;
+    border: 1px solid #ddd;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    padding-left: 8px;
+}
+.side_menu>div>dd>figure>img{
+    width: 100%;
+}
+.recom{
+    padding: 0 8px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    background: #ff143c;
+    border: 1px solid #ff143c;
+    border-radius: 0;
+    color: #fff;
+    font-weight: 400
+}
+.long>h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    line-height: 20px
+}
+
+.long>article>select{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding: 5px 50px 5px 20px ;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 15px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.sel_one{
+    margin-top: 10px;
+}
+.sel_two{
+    margin-top: 10px;
+}
+.hohodo{
+    position: relative;
+    font-size: 12px;
+    color: #888888;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.size_select{
+    position: relative;
+    border-top: 2px solid #000;
+    margin-top: 30px;
+}
+
+.size_select>h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.btn_size{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 50px;
+}
+.L_sel{
+    background: #ff143c;
+    border: 1px solid #ff143c;
+    font-size: 19px;
+    font-weight: 600;
+    color: #fff;
+    display: inline-block;
+    width: 245px;
+    height: 58px;
+    line-height: 58px;
+    border-radius: 30px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.M_sel{
+    background: #fff;
+    border: 1px solid #888;
+    font-size: 19px;
+    font-weight: 600;
+    color: #888;
+    display: inline-block;
+    width: 245px;
+    height: 58px;
+    line-height: 58px;
+    border-radius: 30px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+.do_select{
+    margin-top: 50px;
+    width: 600px; height: 163px;
+    position: relative;
+    border-top: 2px solid #000; 
+}
+.do_select_line{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 ;
+}
+.col{
+    content: "i";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border: 1px solid #ff752d;
+    border-radius: 100%;
+    color: #ff752d;
+    line-height: 15px;
+    text-align: center;
+    font-size: 12px;
+    vertical-align: 1px;
+    margin-right: 1px;
+    padding-right: 2px;
+}
+.do_select_line>h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    line-height: 20px;
+}
+.do_select_line>div>p{
+    color:#ff752d;
+}
+.do_select_menu{
+    color: #999;
+}
+.add_select{
+    position: relative;
+    border-top: 2px solid #000;
+    margin-top: 30px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.add_select>h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    line-height: 20px
+}
+.add_select>h2>span{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-style: solid;
+    border-color: transparent #000 #000 transparent;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
+    vertical-align: 3px;
+}
+.add_select>div>p{
+    color:#ff752d;
+}
+.num_select{
+    position: relative;
+    border-top: 2px solid #000;
+    margin-top: 30px;
+}
+.num_select>h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.btn{
+    display: flex;    
+    position: relative;
+    
+    margin-top: 10px;
+}
+.num_select>div>button{
+    width: 20px;
+    border: none;
+    background: none;
+
+}
+.minus_btn{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}
+.plus_btn{
+    position: absolute;
+    right: 20px;    
+    top: 5px;
+}
+.num_select>div>input{
+    width:100%;
+    padding: 0;
+    text-align: center;
+    font-size: 24px;
+    color: #111;
+    border-radius: 30px;
+}
+.side_dc{
+    position: relative;
+    border-top: 2px solid #000;
+    margin-top: 60px;
+}
+.side_dc>h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+
+.sp_menu{
+    margin-top: 10px;
+    border: 1px solid #dddddd;
+    padding: 30px;
+    height: 365px;
+    overflow-y: scroll;
+}
+.aordosclwmqhf{
+    background-image: url(../img/맥앤치즈\ 볼.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.sp_menu>div{
+    display: flex;
+}
+.sp_menu_mi{
+    position: relative;
+    width: calc(100% - 90px);
+    padding: 0 170px 0 15px;
+}
+.sp_menu_mi>div{
+    font-size: 16px;
+    color: #111;
+}
+.sp_menu_mi>p{
+    font-size: 18px;
+    color: #111;
+    font-weight: 600;
+}
+.btn2{
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 140px;
+}
+
+.btn2>button{
+    width: 50px;
+    border: none;
+    background: none;
+
+}
+.minus_btn2{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    padding: 0 26px;
+    background: transparent;
+}
+.plus_btn2{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    padding: 0 26px;
+    background: transparent;
+}
+.btn2>input{
+    width: 100%;height: 52px;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 52px;
+    vertical-align: top;
+
+    }
+.pos{
+    position: relative;
+    display: flex;
+    width: 100%;
+    font-size: 0;
+    vertical-align: top;
+
+    margin-top: 20px;
+}
+.qhffhspwmvktmxk{
+    background-image: url(../img/페타크림\ 치즈\ 볼\ 로네즈\ 파스타.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.qnfeozmcl{
+    background-image: url(../img/불고기\ 대파\ 크림치즈\ 파스타.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.ehtbakcp{
+    background-image: url(../img/[도미노x슈퍼\ 마리오]체다\ 치즈\ 치킨.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.dnpgktdnld{
+    background-image: url(../img/웨스턴\ 핫\ 윙\(8조각\).jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.coke125{
+    background-image: url(../img/콜라1.25.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.coke500{
+    background-image: url(../img/콜라500.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.cokezero125{
+    background-image: url(../img/콜라제로1.25.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.cokezero500{
+    background-image: url(../img/콜라제로500.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.tmvmfkdlxm15{
+    background-image: url(../img/스프라이트1.5.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.tmvmfkdlxm500{
+    background-image: url(../img/스프라이트500.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.vlzmfl{
+    background-image: url(../img/피클L.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.vlzmfm{
+    background-image: url(../img/피클M.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.elvldthtm{
+    background-image: url(../img/갈릭디핑소스15.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.gktthtm{
+    background-image: url(../img/핫소스.jpg);
+    width: 90px;height: 90px;
+    background-size: cover;
+}
+.inf>a{
+    border: none;
+    color: #111111;
+    background: #F5F5F5;
+    padding: 11px 23px 11px 13px;
+    vertical-align: middle;
+    font-size: 13px;
+    line-height: 13px;
+    height: inherit;
+    display: inline-block;
+    width: auto;
+    margin: 40px 0 10px;
+}
+.inf_l>a{
+    color: #ff752d;
+    font-size: 14px;
+    vertical-align: middle;
+    line-height: 24px;
+}
+
+/**************************fourth******************/
+
+.zmflaclwmvktmxk{
+    background-image: url(../img/불고기\ 대파\ 크림치즈\ 파스타.jpg);
+}
+.ejxlvmfkdlwm{
+    background-image: url(../img/치킨\ 체다\ 더티\ 프라이즈.jpg);
+}
+.cpekclwmclzls{
+    background-image: url(../img/[도미노x슈퍼\ 마리오]체다\ 치즈\ 치킨.jpg);
+}
+.clrqhfvktmxk{
+    background-image: url(../img/칙볼\(치킨볼\)\ 파스타.jpg);
+}
+.gktdnld{
+    background-image: url(../img/웨스턴\ 핫\ 윙\(8조각\).jpg);
+}
+.rkfflrdnldtm{
+    background-image: url(../img/허니&갈릭\ 윙스.jpg);
+}
+.vpxnclsl{
+    background-image: url(../img/베이컨\ 까르보나라\ 페투치니.jpg);
+}
+.tmvkrpxl{
+    background-image: url(../img/NEW\ 치즈\ 볼로네즈\ 스파게티.jpg);
+}
+.gkvmvktmxk{
+    background-image: url(../img/하프&하프\ 파스타\ \(NEW\ 치즈&\ 베이컨까르보나라\).jpg);
+}
+.zhdnftmffh{
+    background-image: url(../img/도미노\ 코울슬로.jpg);
+}
+
+.f_lo>ul{
+    justify-content:left ;
+    width: 1250px;
+    margin: 0 auto;
+}
+
+/*******************fifth*****************/
+
+.fi_main>div{
+    background-image: url(../img/맛잇쪙.jpg);
+    width: 585px;
+    height: 235px;
+    background-size: cover;
+}
+.fi_main>p{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #111;
+}
+.fi_main>dd{
+    margin-top: 8px;
+    color: #888888;
+    font-size: 15px;
+    width: 100%;
+}
+
+
+.fi_main{
+    justify-content:left ;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/***************** seventh*****************/
+
+
+.seventh_pag{
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 1250px;
+}
+.seventh_pag>ol{
+    display: flex;
+    justify-content: space-between;
+}
+.co125{
+    background-image: url(../img/콜라1.25.jpg);
+    width: 276px; height: 276px;
+    background-size: cover;
+}
+
+.seventh_pag>ol>li>div{
+    font-size: 18px;
+    color: #111;
+    font-weight: 600;
+    line-height: 10px;
+    height: auto;
+    margin: 20px 0 ;
+}
+.co500{
+    background-image: url(../img/콜라500.jpg);
+    width: 276px; height: 276px;
+    background-size: cover;
+}
+.coze125{
+    background-image: url(../img/콜라제로1.25.jpg);
+    width: 276px; height: 276px;
+    background-size: cover;
+}
+.coze500{
+    background-image: url(../img/콜라제로500.jpg);
+    width: 276px;height: 276px;
+    background-size: cover;
+}
+.btn3{
+    position: relative;
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    display: flex;
+
+}
+.btn3>button{
+    width: 50px;
+    background: none;
+    border: 1px solid #ddd;
+}
+.minus_btn3{
+    padding: 0 26px;
+    background: transparent;
+}
+.plus_btn3{
+    padding: 0 26px;
+    background: transparent;
+}
+.btn3>input{
+    width: 72px;height: 46px;
+    padding: 0;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 52px;
+    vertical-align: top;
+}
+.orther>a{
+    color: #fff;
+    background: #ff143c;
+    width: 74px;
+    height: 46px;
+    margin-left: 6px;
+    font-size: 16px;
+    line-height: 46px;
+    text-align: center;
+    display: block;
+}
+.elel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tmvm125{
+    background-image: url(../img/스프라이트1.5.jpg);
+    width: 276px;height: 276px;
+    background-size: cover;
+}
+.tmvm500{
+    background-image: url(../img/스프라이트500.jpg);
+    width: 276px;height: 276px;
+    background-size: cover;
+}
+.vlzmffkwl{
+    background-image: url(../img/피클L.jpg);
+    width: 276px;height: 276px;
+    background-size: cover;
+}
+.vlzmfaleldna{
+    background-image: url(../img/피클M.jpg);
+    width: 276px;height: 276px;
+    background-size: cover;
+}
+.rkfelth{
+    background-image: url(../img/갈릭디핑소스15.jpg);
+    width: 276px;height: 276px;
+    background-size: cover;
+}
+.thtmgkt{
+    background-image: url(../img/핫소스.jpg);
+    width: 276px;height: 276px;
+    background-size: cover;
+}
+main>div>.seventh_pag>.akwlakr{
+    display: flex;
+    justify-content: flex-start;
+}
+.rkqjfut{
+    margin-left: 50px;
+}
+/*************************hide******************/
+.dis_none{
+    display: none;
+}
+.dis_none.active{
+    display: block;
+}
+/*****************************footer********************/
+
+
+footer {
+    border-top: 1px solid #ddd;
+    padding-top: 52px;
+}
+
+
+.f_wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 0;
+}
+
+.f_top {
+    display: flex;
+    align-items: baseline;
+}
+
+.f_top>h1 {
+    width: 125px;
+    height: 27px;
+    background-position: 0 -47px;
+}
+
+.f_top>p {
+    font-size: 30px;
+    padding-left: 13px;
+}
+
+.f_nav {
+    display: flex;
+    padding: 20px 0 30px;
+}
+
+.f_nav>li {
+    padding-right: 20px;
+}
+
+.f_nav>li>a {
+    color: #888;
+}
+
+.f_nav>li>.bard {
+    font-weight: 600;
+    color: #111;
+}
+
+address {
+    padding: 12px;
+}
+
+address>p {
+    font-size: 12px;
+    color: #888;
+}
+
+.noti {
+    font-size: 12px;
+    color: #888;
+}
+
+
+.lang {
+    width: 174px;
+    height: 19px;
+    border-bottom: 1px solid #888;
+}
+
+dl {
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding: 22px 0;
+}
+
+dd {
+    width: 22px;
+    height: 26px;
+    margin-left: 10px;
+}
+
+.apple {
+    background-position: -445px 0;
+}
+
+.google {
+    background-position: -478px 0;
+}
+
+.award {
+    background-color: #f5f5f5;
+    padding: 30px 0;
+}
+
+.sns {
+    margin-top: 160px;
+}
+
+.sns>ul {
+    width: 100%;
+    opacity: .4;
+    justify-content: space-between;
+    display: flex;
+}
+
+.sns a {
+    width: 25px;
+    height: 22px;
+    display: block;
+}
+
+.bd {
+    background-position: -503px 0;
+}
+
+.is {
+    background-position: -530px 0;
+}
+
+.fb {
+    background-position: -556px 0;
+}
+
+.yb {
+    background-position: -584px 0;
+}
+
+.tw {
+    background-position: -617px 0;
+}
+
+.award>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .award>ul>li{
+    display: flex; */
+/* } */
+.award>ul>li>p {
+    font-size: 11px;
+    color: #888;
+    display: inline-block;
+    margin-left: 7px;
+    letter-spacing: -1px;
+}
+
+.award>ul>li img {
+    vertical-align: bottom;
+}
+
+.floating {
+    position: fixed;
+    right: 50px;
+    top: 200px;
+    animation-name: float;
+    animation-iteration-count: infinite;
+    animation-duration: 0.7s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.floating>a {
+    display: block
+}
+
+.floating::after {
+    content: "X";
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@keyframes float {
+    0% {
+        top: 200px
+    }
+
+    100% {
+        top: 180px
+    }
+}
+
+

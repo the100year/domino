@@ -1,0 +1,367 @@
+* {
+    box-sizing: border-box;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.bg_icon {
+    /* background-image: url(../img/sp_common.png);
+    background-repeat: no-repeat;
+    background-position: 0 0; */
+    background: url(../img/sp_common.png) no-repeat 0 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding:30px;
+    align-items: center;
+}
+.logo{
+    width: 160px; height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+.search_wrap{
+    border-bottom: 1px solid #111;
+    width: 345px; 
+}
+.h_htn_wrap>ul{
+    display: flex;
+}
+.h_htn_wrap a{
+display: block;
+padding-right: 20px;
+font-size: 14px;
+color: #111;
+line-height: 40px;
+}
+.arrow{
+    background-position: -162px 0;
+    display: inline-block;
+    width: 18px; height: 18px;
+}
+nav {
+    background-color: #fff;
+    position: static;
+    border: 0;
+    top:0;
+
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+}
+.wowo{
+    position: relative;
+}
+.wowo::after{
+    content: "";
+    position: absolute;
+    right: -22px; top: 3px;
+    width: 10px; height: 10px;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(45deg);
+    
+
+}
+nav>ul>a{
+    font-size: 18px;
+    color: #111;
+    line-height: 54px;
+}
+main{
+    margin: 0 auto;
+    width: 1200px;
+    padding-top: 60px;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+}
+.one>h2{
+    font-size: 30px;
+}
+.one>p{
+    font-size: 15px;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+.two>div{
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.two>div:first-child{
+    width: 300px; height: 60px;
+    border: 1px solid #111;
+    border-bottom: none;
+    font-size: 20px;
+    font-weight: bold;
+   }
+.two>div:last-child{
+    width: 300px; height: 60px;
+    border-bottom: 1px solid#111;
+    font-size: 20px;
+    color: #8888;
+    font-weight: bold;
+    background-color:#dddd ;
+}
+input{
+    border: none;
+    outline: none;
+    background-color: none;}
+form{
+
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.id{
+    width: 600px; height: 50px;
+    border: 1px solid #dddd;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.pw{
+    width: 600px; height: 50px;
+    border: 1px solid #dddd;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.save{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.save>div{
+    width: 150px;
+    display: flex;
+    justify-content:start;
+}
+.save>p{
+    font-size: 13px;
+}
+input[type=checkbox]{
+    width: 20px; height: 20px;
+}
+.login{
+    margin: 0   auto;
+    width: 600px; height: 70px;
+    background-color: red;
+margin-top: 20px;
+}
+.login>input{
+    margin: 0   auto;
+    background-color: red;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 0 0 275px;
+}
+.ghldnjs{
+    margin: 0   auto;
+    width: 600px; height: 70px;
+    background-color:#fff;
+margin-top: 20px;
+border: 1px solid #000;
+}
+.ghldnjs>input{
+    margin: 0   auto;
+    background-color:#fff;
+    font-size: 20px;
+    color:#000;
+    padding: 20px 0 0 275px;
+}
+.lolo{
+    margin: 0 auto;
+}
+div>h2{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.glgl{
+    display: flex;
+    justify-content: center;
+    margin: 0   auto;
+    margin-top: 20px;
+}
+.glgl>ul{
+    width: 400px;
+    margin: 3px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.glgl>ul>li:first-child>a{
+    display: block;
+    width: 50px; height: 50px;
+    background-image: url(../img/btn-kakao.png);
+    background-size: cover;
+}
+.glgl>ul>li:nth-child(2)>a{
+    display: block;
+    width: 50px; height: 50px;
+    background-image: url(../img/btn-t.png);
+    background-size: cover;
+}
+.glgl>ul>li:nth-child(3)>a{
+    display: block;
+    width: 50px; height: 50px;
+    background-image: url(../img/btn-naver.png);
+    background-size: cover;
+}
+.glgl>ul>li:nth-child(4)>a{
+    display: block;
+    width: 50px; height: 50px;
+    background-image: url(../img/btn-apple.png);
+    background-size: cover;
+}
+
+
+
+/*******************footer************/
+footer{
+    border-top: 1px solid #ddd;
+    padding-top:52px;
+}
+
+
+.f_wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 0;
+}
+.f_top{
+    display: flex;
+    align-items: baseline;
+}
+.f_top>h1{
+    width: 125px; height: 27px;
+    background-position: 0  -47px ;
+}
+.f_top>p{
+    font-size: 30px;
+    padding-left:13px;
+}
+
+.f_nav{
+    display: flex;
+    padding: 20px 0 30px;
+}
+.f_nav>li{
+    padding-right: 20px;
+}
+.f_nav>li>a{
+    color: #888;
+}
+.f_nav>li>.bard{
+    font-weight: 600;
+    color: #111;
+}
+
+address{
+    padding: 12px;
+}
+address>p{
+    font-size: 12px;
+    color: #888;
+}
+.noti{
+    font-size: 12px;
+    color: #888;
+}
+
+
+.lang{
+    width: 174px; height: 19px;
+    border-bottom: 1px solid #888;
+}
+
+dl{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding: 22px 0;
+}
+dd{
+    width: 22px; height:  26px;
+    margin-left: 10px;
+}
+.apple{
+    background-position: -445px 0;
+}
+.google{
+    background-position:  -478px 0 ;
+}
+.award{
+    background-color: #f5f5f5;
+    padding: 30px 0;
+}
+.sns{
+    margin-top: 160px;
+}
+.sns>ul{
+    width: 100%;
+    opacity: .4;
+    justify-content: space-between;
+    display: flex;
+}
+.sns a{
+    width: 25px; height: 22px;
+    display: block;
+}
+.bd{
+    background-position: -503px 0;
+}
+.is{
+    background-position: -530px 0;
+}
+.fb{
+    background-position: -556px 0;
+}
+.yb{
+    background-position: -584px 0;
+}
+.tw{
+    background-position: -617px 0;
+}
+.award>ul{
+    display: flex;
+    justify-content: space-between;
+}
+/* .award>ul>li{
+    display: flex; */
+/* } */
+.award>ul>li>p{
+    font-size: 11px;
+    color: #888;
+    display: inline-block;
+    margin-left: 7px;
+    letter-spacing: -1px;
+}
+.award>ul>li img{
+    vertical-align: bottom;
+}
+
+ 
